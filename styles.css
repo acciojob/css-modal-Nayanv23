@@ -2,7 +2,9 @@ body {
   font-family: Arial, sans-serif;
   padding: 50px;
 }
-
+#myModal{
+	display:none;
+}
 /* Modal overlay */
 .modal {
   display: none;
@@ -47,7 +49,4 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-#myModal{
-	display:none;
 }
